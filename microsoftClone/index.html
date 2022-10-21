@@ -5,9 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="input.css">
-    <title>Microsoft Website</title>
+    <title>Microsoft - Cloud, Computers , Apps & Gaming</title>
 </head>
 <body>
+     <div class="navbar flex justify-between items-center">
+        <div class="flex justify-center items-center md:order-2">
+            <div class="hamburger inline-block p-3 cursor-pointer md:hidden">
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                <div class="line h-0.5 w-6 my-1 bg-black"></div>
+            </div>
+            <div class="search md:hidden">Search Icon</div>
+        </div>
+
+        <div class="logo text-center flex md:order-1">
+            <div class="p-3 w-40"><img src="./logo.png" alt=""></div>
+           
+            <div class="features absolute w-fit md:static bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0">
+                <div class="fitem">Microsoft 365</div>
+                <div class="fitem">Office</div>
+                <div class="fitem">Windows</div>
+                <div class="fitem">Surface</div>
+                <div class="fitem">Xbox</div>
+                <div class="fitem">Support</div>
+            </div>
+            
+        </div>
+
+        <div class="cart text-center md:order-3 flex">
+            <div class="search hidden md:block">All Microsoft SearchIcon</div>
+            <div> Cart Account</div>
+        </div>
+     
     
-</body>
+    </div>
+
+    <div class="slider flex flex-col-reverse md:flex-row mx-2  bg-[#f2f2f2]">
+         <div class="left flex flex-col justify-center items-center md:items-baseline py-10">
+            <h1 class="text-3xl mx-5">Surface laptop 4</h1>
+            <p class="w-3/4 mx-5 text-center md:text-left">Do It with a perfect balance of sleek , Ultra - thin design , Multitasking Speed and improved performance </p>   
+         </div>
+         <div class="right">
+            <img src="./mx.avif" alt="">
+         </div>
+    </div>
+</body> 
 </html>
