@@ -9,18 +9,19 @@ const banner = () => {
           Grow with us
         </h2>
         <div className="md:text-[50px] text-xl md:p-[24px] text-white">
-          Learn{" "}
+          Learn
           <Typed
             strings={[
               " Web development",
-              "Full Stack",
-              "Data structures and Algorithms",
+              " Full Stack",
+              " Data structures and Algorithms",
             ]}
             typeSpeed={100}
             loop={true}
             backSpeed={120}
           />
         </div>
+        <button className="bg-black text-white p-3 rounded">Get Started</button>
       </div>
     </div>
   );
